@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+
+body{
+	background-color: #34495e;
+}
+
+.menubar{
+  width: 1000px;
+  height: 50px;
+  background: gray;
+  color: white;
+}
+
+#menu{
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  float: left;
+}
+#menu li{
+  list-style: none;
+  display: inline;
+
+}
+#menu a{
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+  margin: 5px;
+  font-family: TAHOMA;
+
+}
+#menu a:hover{
+  color: orange;
+  font-weight: bolder;
+}
+#form{
+  float: right;
+  padding-right: 8px;
+  line-height: 50px;
+}
+
+.marquee{
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+.marquee p{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  margin-top: 50px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.main_wrapper{
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+.header_wrapper{
+  width: 1000px;
+  height: 150px;
+  margin: auto;
+}
+
+.content_wrapper{
+  width: 1000px;
+  margin: auto;
+  background: pink;
+}
+
+#content_area{
+  width: 800px;
+  float: right;
+  background: #f3a683;
+}
+#sidebar{
+  width: 200px;
+  float: left;
+  background: black;
+}
+.sidebar_title{
+  background: white;
+  color: black;
+  font-size: 25px;
+  font-family: TAHOMA;
+  padding: 15px;
+  text-align: center;
+}
+.sidebar_title p{
+  text-align: center;
+  padding: 5px;
+}
+ .categories{
+   text-align: center;
+ }
+ #cat li{
+   list-style: none;
+   margin: 5px
+ }
+ #cat a{
+   color: white;
+   padding: 8px;
+   margin: 5px;
+   text-align: center;
+   font-size: 22px;
+   text-decoration: none;
+   font-family: sans-serif;
+ }
+ #cat a:hover{
+   color: green;
+   font-weight: bolder;
+   text-decoration: underline;
+ }
+
+#footer{
+  width: 1000px;
+  height: 100px;
+  background: gray;
+  clear: both;
+}
